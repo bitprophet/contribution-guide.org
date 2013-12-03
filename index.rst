@@ -2,10 +2,6 @@
 Contributing to Open Source Projects
 ====================================
 
-.. contents:: Table of Contents
-    :local:
-
-
 About
 =====
 
