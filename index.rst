@@ -19,6 +19,17 @@ projects/languages may have additional requirements.
 Naturally, this document is itself open source, and we encourage feedback &
 suggestions for improvement.
 
+Sources
+-------
+
+Currently this document draws from the contribution documentation for a handful
+of related Python open source projects: `Fabric <http://fabfile.org>`_, `Invoke
+<http://pyinvoke.org>`_, `Paramiko <http://paramiko.org>`_, etc.
+
+It's expected that over time we will incorporate additional material from
+related attempts at consolidating this type of info. We'll update with a list
+here when that happens.
+
 
 Submitting bugs
 ===============
