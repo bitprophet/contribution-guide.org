@@ -144,3 +144,27 @@ Ditto for new features that can't prove they actually work.
 We've found that test-first development really helps make features better
 architected and identifies potential edge cases earlier instead of later.
 Writing tests before the implementation is strongly encouraged.
+
+Full example
+------------
+
+Here's an example workflow for a project ``theproject`` hosted on Github, which
+is currently in version 1.3.x. Your username is ``yourname`` and you're
+submitting a basic bugfix. (This workflow only changes slightly if the project
+is hosted at Bitbucket, self-hosted, or etc.)
+
+* Hit 'fork' on Github, creating e.g. ``yourname/theproject``.
+* ``git clone git@github.com:yourname/theproject``
+* ``cd theproject``
+* ``git checkout -b foo-the-bars 1.3``
+* Add changelog entry crediting yourself.
+* Write tests expecting the correct/fixed functionality; make sure they fail.
+* Hack, hack, hack.
+* Run tests again, making sure they pass.
+* ``git commit -m "Foo the bars"``
+* ``git push origin HEAD`` to get it back up to your fork
+* Visit Github, click handy "Pull request" button that it will make upon
+  noticing your new branch.
+* Write down issue number (if submitting code fixing an existing issue) or
+  describe the issue + your fix (if submitting a wholly new bugfix).
+* Be patient! The maintainers will get to you.
