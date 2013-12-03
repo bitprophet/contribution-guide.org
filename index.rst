@@ -81,6 +81,11 @@ Version control branching
 * Always **make a new branch** for your work, no matter how small. This makes
   it easy for others to take just that one set of changes from your repository,
   in case you have multiple unrelated changes floating around.
+
+    * A corollary: **don't submit multiple changes in the same branch/pull
+      request**! The maintainer shouldn't have to reject your awesome bugfix
+      because the feature you put in with it needs more review.
+
 * Base your new branch off of the appropriate branch on the main repository:
 
     * **Bug fixes** should be based on the branch named after the **current
