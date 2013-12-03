@@ -2,6 +2,9 @@
 Contributing to Open Source Projects
 ====================================
 
+.. contents:: Table of Contents
+    :local:
+
 
 About
 =====
@@ -15,9 +18,6 @@ projects/languages may have additional requirements.
 
 Naturally, this document is itself open source, and we encourage feedback &
 suggestions for improvement.
-
-
-.. contents::
 
 
 Submitting bugs
@@ -82,7 +82,7 @@ Version control branching
   it easy for others to take just that one set of changes from your repository,
   in case you have multiple unrelated changes floating around.
 
-    * A corollary: **don't submit multiple changes in the same branch/pull
+    * A corollary: **don't submit unrelated changes in the same branch/pull
       request**! The maintainer shouldn't have to reject your awesome bugfix
       because the feature you put in with it needs more review.
 
@@ -121,7 +121,8 @@ It's not! Patches without documentation will be returned to sender.  By
 "documentation" we mean:
 
 * **Docstrings** (for Python; or API-doc-friendly comments for other languages)
-  must be created or updated for public API functions/methods/etc.
+  must be created or updated for public API functions/methods/etc. (This step
+  is optional for some bugfixes.)
 
     * Don't forget to include `versionadded
       <http://sphinx-doc.org/markup/para.html#directive-versionadded>`_/`versionchanged
@@ -135,16 +136,15 @@ It's not! Patches without documentation will be returned to sender.  By
 
 * New features should ideally include updates to **prose documentation**,
   including useful example code snippets.
-* All changes (**including bugfixes**) should have a **changelog entry**
-  crediting the contributor and/or any individuals instrumental in identifying
-  the problem.
+* All submissions should have a **changelog entry** crediting the contributor
+  and/or any individuals instrumental in identifying the problem.
 
 Tests aren't optional
 ---------------------
 
 Any bugfix that doesn't include a test proving the existence of the bug being
-fixed (and of course, that passes when the bugfix is applied) may be suspect.
-Ditto for new features that can't prove they actually work.
+fixed, may be suspect.  Ditto for new features that can't prove they actually
+work.
 
 We've found that test-first development really helps make features better
 architected and identifies potential edge cases earlier instead of later.
@@ -170,6 +170,8 @@ is hosted at Bitbucket, self-hosted, or etc.)
 * ``git push origin HEAD`` to get it back up to your fork
 * Visit Github, click handy "Pull request" button that it will make upon
   noticing your new branch.
-* Write down issue number (if submitting code fixing an existing issue) or
-  describe the issue + your fix (if submitting a wholly new bugfix).
-* Be patient! The maintainers will get to you.
+* In the description field, write down issue number (if submitting code fixing
+  an existing issue) or describe the issue + your fix (if submitting a wholly
+  new bugfix).
+* Hit 'submit'! And please be patient - the maintainers will get to you when
+  they can.
