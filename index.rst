@@ -93,14 +93,18 @@ Version control branching
       request**! The maintainer shouldn't have to reject your awesome bugfix
       because the feature you put in with it needs more review.
 
-* Base your new branch off of the appropriate branch on the main repository:
+* **Base your new branch off of the appropriate branch** on the main
+  repository:
 
-    * **Bug fixes** should be based on the branch named after the **current
-      stable release line** (e.g. 1.0, 1.1, 1.2 etc).
+    * **Bug fixes** should be based on the branch named after the **oldest
+      supported release line** the bug affects.
 
-        * Caveat: bug fixes requiring large changes to the code or which have a
-          chance of being otherwise disruptive, may need to base off of
-          **master** instead. This is a judgement call -- ask the devs!
+        * E.g. if a feature was introduced in 1.1, the latest release line is
+          1.3, and a bug is found in that feature - make your branch based on
+          1.1.  The maintainer will then forward-port it to 1.3 and master.
+        * Bug fixes requiring large changes to the code or which have a chance
+          of being otherwise disruptive, may need to base off of **master**
+          instead. This is a judgement call -- ask the devs!
 
     * **New features** should branch off of **the 'master' branch**.
 
