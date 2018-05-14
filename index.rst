@@ -172,9 +172,12 @@ is hosted at Bitbucket, self-hosted, or etc.)
 Preparing your Fork
 ^^^^^^^^^^^^^^^^^^^
 
-1. Hit 'fork' on Github, creating e.g. ``yourname/theproject``.
+1. Click 'Fork' on Github, creating e.g. ``yourname/theproject``.
 2. Clone your project: ``git clone git@github.com:yourname/theproject``.
-3. Create a branch: ``cd theproject; git checkout -b foo-the-bars 1.3``.
+3. ``cd theproject``
+4. `Create and activate a virtual environment <https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments>`_.
+5. Install the development requirements: ``pip install -r dev-requirements.txt``.
+6. Create a branch: ``git checkout -b foo-the-bars 1.3``.
 
 Making your Changes
 ^^^^^^^^^^^^^^^^^^^
