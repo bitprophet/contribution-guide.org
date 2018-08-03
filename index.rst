@@ -72,7 +72,7 @@ constitutes a bare minimum; more info is almost always better:
 * **How can the developers recreate the bug on their end?** If possible,
   include a copy of your code, the command you used to invoke it, and the full
   output of your run (if applicable.)
-  
+
     * A common tactic is to pare down your code until a simple (but still
       bug-causing) "base case" remains. Not only can this help you identify
       problems which aren't real bugs, but it means the developer can get to
@@ -81,6 +81,30 @@ constitutes a bare minimum; more info is almost always better:
 
 Contributing changes
 ====================
+
+Ownership of contributed material
+---------------------------------
+
+Keep in mind as you contribute, that code, docs and other material submitted to
+open source projects are usually considered licensed under the same terms
+as the rest of the work.
+
+The details vary from project to project, but from the perspective of this
+document's authors:
+
+- Anything submitted to a project falls under the licensing terms in the
+  repository's top level ``LICENSE`` file.
+
+    - For example, if a project's ``LICENSE`` is BSD-based, contributors should
+      be comfortable with their work potentially being distributed in binary
+      form without the original source code.
+
+- Per-file copyright/license headers are largely extraneous and undesirable.
+
+    - Not least because even a new file created by one individual (who often
+      feels compelled to put their personal copyright notice at the top) will
+      inherently end up contributed to by dozens of others over time, making a
+      per-file header outdated/misleading.
 
 Version control branching
 -------------------------
