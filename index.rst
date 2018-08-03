@@ -100,6 +100,7 @@ document's authors:
       form without the original source code.
 
 - Per-file copyright/license headers are largely extraneous and undesirable.
+  Please don't add your own copyright headers to new files!
 
     - Not least because even a new file created by one individual (who often
       feels compelled to put their personal copyright notice at the top) will
