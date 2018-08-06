@@ -82,7 +82,7 @@ constitutes a bare minimum; more info is almost always better:
 Contributing changes
 ====================
 
-Ownership of contributed material
+Licensing of contributed material
 ---------------------------------
 
 Keep in mind as you contribute, that code, docs and other material submitted to
@@ -99,8 +99,9 @@ document's authors:
       be comfortable with their work potentially being distributed in binary
       form without the original source code.
 
-- Per-file copyright/license headers are largely extraneous and undesirable.
-  Please don't add your own copyright headers to new files!
+- Per-file copyright/license headers are typically extraneous and undesirable.
+  Please don't add your own copyright headers to new files unless the project's
+  license actually requires them!
 
     - Not least because even a new file created by one individual (who often
       feels compelled to put their personal copyright notice at the top) will
