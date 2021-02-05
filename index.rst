@@ -162,8 +162,8 @@ It's not! Patches without documentation will be returned to sender.  By
   is optional for some bugfixes.)
 
     * Don't forget to include `versionadded
-      <http://sphinx-doc.org/markup/para.html#directive-versionadded>`_/`versionchanged
-      <http://sphinx-doc.org/markup/para.html#directive-versionchanged>`_ ReST
+      <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-versionadded>`_/`versionchanged
+      <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-versionchanged>`_ ReST
       directives at the bottom of any new or changed Python docstrings!
 
         * Use ``versionadded`` for truly new API members -- new methods,
