@@ -13,4 +13,4 @@ copyright = u'%d Jeff Forcier' % year
 exclude_trees = ['_build']
 default_role = 'obj'
 pygments_style = 'sphinx'
-html_theme = 'default'
+html_theme = 'sphinx_rtd_theme'

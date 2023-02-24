@@ -1,5 +1,6 @@
 # Task running
-invoke>=0.12.2
-invocations>=0.11.0
+invoke>=2,<3
+invocations>=3,<4
 # Doc building
-sphinx==1.3.4
+sphinx-rtd-theme
+sphinx>=4,<7
