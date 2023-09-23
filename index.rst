@@ -60,15 +60,17 @@ Make sure your report gets the attention it deserves: bug reports with missing
 information may be ignored or punted back to you, delaying a fix.  The below
 constitutes a bare minimum; more info is almost always better:
 
+* **What operating system are you on?** Windows? (10? 11? is it 64-bit?)
+  macOS? (Catalina/10.15? Ventura/13.6? Intel or ARM/Apple Silicon?) Linux?
+  (Which distro? Which version *of* that distro?) Again, more detail is better.
 * **What version of the core programming language interpreter/compiler are you
-  using?** For example, if it's a Python project, are you using Python 2.7.3?
-  Python 3.3.1? PyPy 2.0?
-* **What operating system are you on?** Windows? (Vista? 7? 32-bit? 64-bit?)
-  Mac OS X?  (10.7.4? 10.9.0?) Linux? (Which distro? Which version of that
-  distro? 32 or 64 bits?) Again, more detail is better.
+  using?** For example, if it's a Python project, are you using (C)Python
+  3.7.10? PyPy 3.10?
 * **Which version or versions of the software are you using?** Ideally, you
   followed the advice above and have ruled out (or verified that the problem
   exists in) a few different versions.
+* **How did you install the runtime and software?** Operating system packages?
+  pyenv? from source? Something like Conda, or a virtualenv?
 * **How can the developers recreate the bug on their end?** If possible,
   include a copy of your code, the command you used to invoke it, and the full
   output of your run (if applicable.)
@@ -127,18 +129,18 @@ Version control branching
 
         * E.g. if a feature was introduced in 1.1, the latest release line is
           1.3, and a bug is found in that feature - make your branch based on
-          1.1.  The maintainer will then forward-port it to 1.3 and master.
+          1.1.  The maintainer will then forward-port it to 1.3 and main.
         * Bug fixes requiring large changes to the code or which have a chance
-          of being otherwise disruptive, may need to base off of **master**
+          of being otherwise disruptive, may need to base off of **main**
           instead. This is a judgement call -- ask the devs!
 
-    * **New features** should branch off of **the 'master' branch**.
+    * **New features** should branch off of **the 'main' branch**.
 
         * Note that depending on how long it takes for the dev team to merge
-          your patch, the copy of ``master`` you worked off of may get out of
+          your patch, the copy of ``main`` you worked off of may get out of
           date! If you find yourself 'bumping' a pull request that's been
           sidelined for a while, **make sure you rebase or merge to latest
-          master** to ensure a speedier resolution.
+          main** to ensure a speedier resolution.
 
 Code formatting
 ---------------
