@@ -125,7 +125,10 @@ Version control branching
   repository:
 
     * **Bug fixes** should be based on the branch named after the **oldest
-      supported release line** the bug affects.
+      supported release line** the bug affects. The definition of "oldest"
+      will vary project to project, but is typically 1 or 2 minor releases'
+      worth. When in doubt, check the changelog to see which release lines most
+      recently got updates.
 
         * E.g. if a feature was introduced in 1.1, the latest release line is
           1.3, and a bug is found in that feature - make your branch based on
